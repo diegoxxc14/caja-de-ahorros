@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="CajaAhorrosPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>bank.modelos.Credito</class>
+    <class>bank.modelos.Amortizacion</class>
+    <class>bank.modelos.Cliente</class>
+    <class>bank.modelos.Cuenta</class>
+    <class>bank.modelos.CuentaAhorros</class>
+    <class>bank.modelos.Persona</class>
+    <class>bank.modelos.Rol</class>
+    <class>bank.modelos.Socio</class>
+    <class>bank.modelos.Transaccion</class>
+    <class>bank.modelos.Usuario</class>
+    <class>bank.modelos.Poliza</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/caja_ahorros?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+      <property name="hibernate.enable_lazy_load_no_trans" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>
