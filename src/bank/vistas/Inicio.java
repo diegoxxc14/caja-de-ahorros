@@ -108,14 +108,15 @@ public class Inicio extends javax.swing.JFrame {
             .addGroup(escritorioPrincipalLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(lblTexto, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(387, Short.MAX_VALUE))
+                .addContainerGap(389, Short.MAX_VALUE))
         );
 
         getContentPane().add(escritorioPrincipal);
 
         menuUsuarios.setText("Usuarios");
-        menuUsuarios.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        menuUsuarios.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
 
+        menuItemNewRol.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         menuItemNewRol.setText("Registrar Rol");
         menuItemNewRol.setEnabled(false);
         menuItemNewRol.addActionListener(new java.awt.event.ActionListener() {
@@ -126,6 +127,7 @@ public class Inicio extends javax.swing.JFrame {
         menuUsuarios.add(menuItemNewRol);
         menuUsuarios.add(jSeparator5);
 
+        menuItemNewUser.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         menuItemNewUser.setText("Registrar Usuario");
         menuItemNewUser.setEnabled(false);
         menuItemNewUser.addActionListener(new java.awt.event.ActionListener() {
@@ -136,6 +138,7 @@ public class Inicio extends javax.swing.JFrame {
         menuUsuarios.add(menuItemNewUser);
         menuUsuarios.add(jSeparator6);
 
+        menuItemUsuarios.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         menuItemUsuarios.setText("Administrar Usuarios");
         menuItemUsuarios.setEnabled(false);
         menuItemUsuarios.addActionListener(new java.awt.event.ActionListener() {
@@ -146,6 +149,7 @@ public class Inicio extends javax.swing.JFrame {
         menuUsuarios.add(menuItemUsuarios);
         menuUsuarios.add(jSeparator7);
 
+        menuItemCerrarSesion.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         menuItemCerrarSesion.setText("Cerrar sesión");
         menuItemCerrarSesion.setEnabled(false);
         menuItemCerrarSesion.addActionListener(new java.awt.event.ActionListener() {
@@ -156,6 +160,7 @@ public class Inicio extends javax.swing.JFrame {
         menuUsuarios.add(menuItemCerrarSesion);
         menuUsuarios.add(jSeparator8);
 
+        menuItemSalir.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         menuItemSalir.setText("Salir");
         menuItemSalir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -168,8 +173,9 @@ public class Inicio extends javax.swing.JFrame {
 
         menuClientes.setText("Clientes");
         menuClientes.setEnabled(false);
-        menuClientes.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        menuClientes.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
 
+        menuItemNewCliente.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         menuItemNewCliente.setText("Registrar Cliente");
         menuItemNewCliente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -179,6 +185,7 @@ public class Inicio extends javax.swing.JFrame {
         menuClientes.add(menuItemNewCliente);
         menuClientes.add(jSeparator4);
 
+        menuItemClientes.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         menuItemClientes.setText("Administrar Clientes");
         menuItemClientes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -191,10 +198,12 @@ public class Inicio extends javax.swing.JFrame {
 
         menuServicios.setText("Servicios");
         menuServicios.setEnabled(false);
-        menuServicios.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        menuServicios.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
 
         jMenu1.setText("Transacciones");
+        jMenu1.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
 
+        menuItemNewTransaccion.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         menuItemNewTransaccion.setText("Realizar Transacción");
         menuItemNewTransaccion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -203,6 +212,7 @@ public class Inicio extends javax.swing.JFrame {
         });
         jMenu1.add(menuItemNewTransaccion);
 
+        menuItemTransacciones.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         menuItemTransacciones.setText("Administrar Transacciones");
         menuItemTransacciones.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -215,7 +225,9 @@ public class Inicio extends javax.swing.JFrame {
         menuServicios.add(jSeparator1);
 
         jMenu2.setText("Créditos");
+        jMenu2.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
 
+        menuItemNewCredito.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         menuItemNewCredito.setText("Realizar Crédito");
         menuItemNewCredito.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -224,6 +236,7 @@ public class Inicio extends javax.swing.JFrame {
         });
         jMenu2.add(menuItemNewCredito);
 
+        jMenuItem1.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jMenuItem1.setText("Administrar Créditos");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -236,7 +249,9 @@ public class Inicio extends javax.swing.JFrame {
         menuServicios.add(jSeparator2);
 
         jMenu3.setText("Pólizas");
+        jMenu3.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
 
+        menuItemNewPoliza.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         menuItemNewPoliza.setText("Realizar Póliza");
         menuItemNewPoliza.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -245,6 +260,7 @@ public class Inicio extends javax.swing.JFrame {
         });
         jMenu3.add(menuItemNewPoliza);
 
+        jMenuItem2.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jMenuItem2.setText("Administrar Pólizas");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

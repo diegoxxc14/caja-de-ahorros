@@ -8,12 +8,15 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Usuarios"/>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="15" style="1"/>
+              <Font name="Segoe UI" size="18" style="1"/>
             </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemNewRol">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="14" style="1"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Registrar Rol"/>
                 <Property name="enabled" type="boolean" value="false"/>
               </Properties>
@@ -28,6 +31,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemNewUser">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="14" style="1"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Registrar Usuario"/>
                 <Property name="enabled" type="boolean" value="false"/>
               </Properties>
@@ -42,6 +48,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemUsuarios">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="14" style="1"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Administrar Usuarios"/>
                 <Property name="enabled" type="boolean" value="false"/>
               </Properties>
@@ -56,6 +65,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemCerrarSesion">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="14" style="1"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Cerrar sesi&#xf3;n"/>
                 <Property name="enabled" type="boolean" value="false"/>
               </Properties>
@@ -70,6 +82,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemSalir">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="14" style="1"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Salir"/>
               </Properties>
               <Events>
@@ -83,7 +98,7 @@
             <Property name="text" type="java.lang.String" value="Clientes"/>
             <Property name="enabled" type="boolean" value="false"/>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="15" style="1"/>
+              <Font name="Segoe UI" size="18" style="1"/>
             </Property>
           </Properties>
           <AuxValues>
@@ -92,6 +107,9 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemNewCliente">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="14" style="1"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Registrar Cliente"/>
               </Properties>
               <Events>
@@ -102,6 +120,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemClientes">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="14" style="1"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Administrar Clientes"/>
               </Properties>
               <Events>
@@ -115,7 +136,7 @@
             <Property name="text" type="java.lang.String" value="Servicios"/>
             <Property name="enabled" type="boolean" value="false"/>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="15" style="1"/>
+              <Font name="Segoe UI" size="18" style="1"/>
             </Property>
           </Properties>
           <AuxValues>
@@ -125,10 +146,16 @@
             <Menu class="javax.swing.JMenu" name="jMenu1">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Transacciones"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="14" style="1"/>
+                </Property>
               </Properties>
               <SubComponents>
                 <MenuItem class="javax.swing.JMenuItem" name="menuItemNewTransaccion">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="14" style="1"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Realizar Transacci&#xf3;n"/>
                   </Properties>
                   <Events>
@@ -137,6 +164,9 @@
                 </MenuItem>
                 <MenuItem class="javax.swing.JMenuItem" name="menuItemTransacciones">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="14" style="1"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Administrar Transacciones"/>
                   </Properties>
                   <Events>
@@ -150,10 +180,16 @@
             <Menu class="javax.swing.JMenu" name="jMenu2">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Cr&#xe9;ditos"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="14" style="1"/>
+                </Property>
               </Properties>
               <SubComponents>
                 <MenuItem class="javax.swing.JMenuItem" name="menuItemNewCredito">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="14" style="1"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Realizar Cr&#xe9;dito"/>
                   </Properties>
                   <Events>
@@ -162,6 +198,9 @@
                 </MenuItem>
                 <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="14" style="1"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Administrar Cr&#xe9;ditos"/>
                   </Properties>
                   <Events>
@@ -175,10 +214,16 @@
             <Menu class="javax.swing.JMenu" name="jMenu3">
               <Properties>
                 <Property name="text" type="java.lang.String" value="P&#xf3;lizas"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="14" style="1"/>
+                </Property>
               </Properties>
               <SubComponents>
                 <MenuItem class="javax.swing.JMenuItem" name="menuItemNewPoliza">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="14" style="1"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Realizar P&#xf3;liza"/>
                   </Properties>
                   <Events>
@@ -187,6 +232,9 @@
                 </MenuItem>
                 <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="14" style="1"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Administrar P&#xf3;lizas"/>
                   </Properties>
                   <Events>
@@ -255,7 +303,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="lblTexto" min="-2" pref="22" max="-2" attributes="0"/>
-                  <EmptySpace pref="387" max="32767" attributes="0"/>
+                  <EmptySpace pref="389" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
